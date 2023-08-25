@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="Sua idade" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Seu email" required>
+        </div>
+
+        <div>
+            <label for="numero">Numero</label>
+            <input type="number" id="numero" placeholder="Número de contato" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Qual a música criada pelo massaru mais estourada?</p>
+
+            <div>
+                <input type="radio" id="opcao1" name="M">
+                <label for="opcao1">Nata</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2" name="M">
+                <label for="opcao2">Prince</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao3" name="M">
+                <label for="opcao3">Aham</label>
+            </div>
+        </div>
+
+        <br>
+        <!-- select -->
+        <div>
+            <label for="musica">Qual o nome da mais recente música do artista Brocasito</label>
+            <select name="musica" id="musica">
+                <option disabled selected>Selecione.</option>
+                <option value="pimp talk">pimp talk</option>
+                <option value="passarinhos">passarinhos</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
