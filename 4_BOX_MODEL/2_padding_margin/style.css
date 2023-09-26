@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+}
+
 div {
-    border: 4px dotted #00f;
+    border: 4px dotted #000;
     width: fit-content;
     font-size: 24px;
 
@@ -26,4 +30,25 @@ div {
     padding-inline: 20px; 
     /* padding-block => padding na vertical */
     padding-block: 10px;
+}
+
+h1 {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.yuta {
+    margin-bottom: 20px;
+}
+
+.gojo {
+    margin-bottom: 20px;
+}
+
+.gojo {
+    margin-inline: auto;
+}
+
+.sukuna {
+    margin-inline: auto;
 }
